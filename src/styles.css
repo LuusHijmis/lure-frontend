@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    margin:  0;
+}
+
+.Inlogscherm {
+    align-content: center;
+    height:  100vh;
+    width:  100vw;
+    margin:  0 0;
+    display:  flex;
+    align-items:  flex-start;
+    justify-content:  flex-start;
+    background:  #f3f2f2;
+}
+.box_login_screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid deepskyblue;
+}
+
+
+.loginForm {
+    padding:  40px 30px;
+    background:  #fefefe;
+    display:  flex;
+    flex-direction:  column;
+    align-items:  flex-start;
+    padding-bottom:  20px;
+    width:  300px;
+}
+
+input {
+    font-size:  16px;
+    padding:  20px 0px;
+    height:  56px;
+    border:  none;
+    border-bottom:  solid 1px rgba(0,0,0,.1);
+    background:  #fff;
+    width:  280px;
+    box-sizing:  border-box;
+    transition:  all .3s linear;
+    color:  #000;
+    font-weight:  400;
+    -webkit-appearance:  none;
+}
+
+h1 {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.cockpit_offer_section {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.welcome_cockpit {
+    display: grid;
+    grid-column: 2;
+    align-items: center;
+    margin-top: 100px;
+    height: 100px;
+    width: auto;
+    border: 1px solid black;
+    margin-right: 4px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.welcome_text_cockpit {
+
+}
+
+.offer_section {
+    display: grid;
+    grid-column: 2;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.offer {
+    width: 250px;
+    height: 375px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.offer_text_title {
+    font-weight: 800;
+}
+
+.offer_text_description {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.offer_image {
+    width: 90%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+
+
+}
+
+
